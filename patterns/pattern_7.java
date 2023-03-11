@@ -29,8 +29,8 @@ public class pattern_7 {
 
 // Expected Output :-
 
-//  *					
-//  	*				
-//  		*			
-//  			*		
-//  				*		
+//  *   					
+//  	*   				
+//  		*   			
+//  			*   		
+//  				*   
