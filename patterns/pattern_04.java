@@ -2,7 +2,7 @@ package patterns;
 
 import java.util.Scanner;
 
-public class pattern_4 {
+public class pattern_04 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter a number");
