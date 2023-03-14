@@ -1,3 +1,14 @@
+// Expected Output :-
+
+//  1
+//  2     3
+//  4     5     6
+//  7     8     9     10
+//  11    12    13    14    15
+
+
+// Code:-
+
 package patterns;
 
 import java.util.Scanner;
@@ -12,11 +23,3 @@ public class pattern_11 {
         scn.close();
     }
 }
-
-// Expected Output :-
-
-//  1
-//  2     3
-//  4     5     6
-//  7     8     9     10
-//  11    12    13    14    15
