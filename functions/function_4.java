@@ -23,6 +23,47 @@ public class function_4 {
         int sourceBase = scn.nextInt();
         int destBase = scn.nextInt();
 
+        int cval = anyBaseToAnyBase(n, sourceBase, destBase);
+        System.out.println(cval);
+
         scn.close();
+    }
+
+    public static int anyBaseToAnyBase(int num, int b1, int b2) {
+        int cval = decimalToAnyBase(num,b1);
+        int dval = anyBaseToDecimal(cval,b2);
+        
+        System.out.println("Output :-");
+        return dval;
+    }
+
+    public static int decimalToAnyBase(int n, int b) {
+        int res = 0;
+        int pos = 0;
+        while(n != 0) {
+            int rem = n % 10;
+            n = n / 10;
+
+            int pow = (int)Math.pow(b,pos);
+            res = res + (rem * pow);
+            pos++;
+        }
+        
+        return res;
+    }
+    
+    public static int anyBaseToDecimal(int n, int b) {
+        int res = 0;
+        int pos = 0;
+        while(n != 0) {
+            int rem = n % b;
+            n = n / b;
+
+            int pow = (int)Math.pow(10,pos);
+            res = res + (rem * pow);
+            pos++;
+        }
+        
+        return res;
     }
 }
