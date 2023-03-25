@@ -33,5 +33,6 @@ public class function_5 {
     public static int getSum(int b, int n1, int n2) {
         return n2;
 
+        
     }
 }
