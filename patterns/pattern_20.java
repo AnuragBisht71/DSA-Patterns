@@ -39,6 +39,7 @@ public class pattern_20 {
             }
 
             System.out.println();
+            
         }
 
         scn.close();
