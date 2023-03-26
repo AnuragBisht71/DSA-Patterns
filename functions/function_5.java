@@ -31,8 +31,26 @@ public class function_5 {
     }
 
     public static int getSum(int b, int n1, int n2) {
-        return n2;
+        int res = 0;
+        int pos = 1;
+        int carry = 0;
 
+        while(n1 != 0 || n2 != 0 || carry != 0) {
+            int d1 = n1 % 10;
+            int d2 = n2 % 10;
+
+            int sum = d1 + d2 + carry;
+            int digit = sum % b;
+            carry = sum / b;
+
+            res = res + (digit * pos);
+            n1 = n1 / 10;
+            n2 = n2 / 10;
+            pos = pos * 10;
+            
+        }
         
+        System.out.println("Output :-");
+        return res;
     }
 }
