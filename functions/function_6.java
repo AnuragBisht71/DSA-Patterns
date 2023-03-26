@@ -31,6 +31,5 @@ public class function_6 {
 
     public static int getDifference(int b, int n1, int n2) {
         return n2;
-        
     }
 }
