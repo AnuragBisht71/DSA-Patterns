@@ -2,13 +2,13 @@
 
 // Input :-
 
-// 5
+// 5 --> no. of elements
 // 1
 // 2
 // 3
 // 4
 // 5
-// 3
+// 3 --> no. of times it will reverse
 
 // Output :-
 
@@ -29,7 +29,28 @@ public class array_04{
     System.out.println(sb);
   }
 
-  
+  public static void rotate(int[] a, int k){
+    int n = a.length;
+    k = k % n;
+    if(k < 0) {
+        k = k + n;
+    }
+    
+    reverse(a, n-k, n-1);
+    reverse(a, 0, n-k-1);
+    reverse(a, 0, n-1);
+  }
+
+  public static void reverse(int[] a, int lo, int hi) {
+    while(lo < hi) {
+        int tmp = a[lo];
+        a[lo] = a[hi];
+        a[hi] = tmp;
+
+        lo++;
+        hi--;
+    }
+  }
 
 public static void main(String[] args) throws Exception {
     BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
