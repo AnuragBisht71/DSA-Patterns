@@ -25,8 +25,12 @@ public class array_07{
   }
 
   public static int[] inverse(int[] a){
-    // write your code here
-    return null;
+    int res[] = new int[a.length];
+    for(int idx = 0; idx < a.length; idx++) {
+      int val = a[idx];
+      res[val] = idx;
+    }
+    return res;
   }
 
 public static void main(String[] args) throws Exception {
