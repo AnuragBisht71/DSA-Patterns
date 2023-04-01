@@ -23,7 +23,44 @@ public class array_09 {
     System.out.println("Enter input :-");
 
     int n = scn.nextInt();
+    int arr[] = new int[n];
+    for(int i = 0; i < n; i++) {
+        arr[i] = scn.nextInt();
+    }
+
+    int k = scn.nextInt();
+    brokenEconomy(arr, k);
 
     scn.close();
+    }
+
+    public static void brokenEconomy(int[] arr, int k) {
+        int lo = 0; 
+        int hi = arr.length-1;
+        int ceil = -1;
+        int floor = -1;
+
+        while(lo <= hi) {
+            int mid = (lo + hi) / 2;
+
+            if(k == arr[mid]) {
+                ceil = floor = arr[mid];
+                break;
+            }
+
+            else if(k > arr[mid]) {
+                lo = mid + 1;
+                floor = arr[mid];
+            }
+
+            else if(k < arr[mid]) {
+                hi = mid - 1;
+                ceil = arr[mid];
+            }
+        }
+        
+        System.out.println("Output :-");
+        System.out.println(ceil);
+        System.out.println(floor);
     }
 }
