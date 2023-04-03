@@ -28,6 +28,20 @@ public class array_11 {
         System.out.println("Enter input :-");
 
         int n = scn.nextInt();
+        int arr[] = new int[n];
+        for(int i = 0; i < n; i++) {
+            arr[i] = scn.nextInt();
+        }
+        
+        System.out.println("Output :-");
+        for(int i = 0; i < n; i++) {
+            for(int j = i; j < n; j++) {
+                for(int idx = i; idx <= j; idx++) {
+                    System.out.print(arr[idx] + "\t");
+                }
+                System.out.println();
+            }
+        }
 
         scn.close();
     }
