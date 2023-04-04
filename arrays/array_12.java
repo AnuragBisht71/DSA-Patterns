@@ -34,7 +34,54 @@ public class array_12 {
         for(int i = 0; i < n; i++) {
             arr[i] = scn.nextInt();
         }
+        
+        System.out.println("Output :-");
+        printSubsets(arr);
 
         scn.close();
+    }
+
+    public static void printSubsets(int[] arr) {
+        int n = arr.length;
+        int tw = (int)Math.pow(2,n);
+        for(int num = 0 ; num < tw; num++) {
+            int bNum = getBinary(num);
+            printSeq(arr, bNum);
+        }
+    }
+
+    public static void printSeq(int arr[] , int bNum) {
+        int n = arr.length;
+        int idx = n-1;
+        String str = "";
+        while(n != 0) {
+            int rem = bNum % 10;
+            bNum = bNum / 10;
+
+            if(rem == 0) {
+                str = "-\t" + str;
+            }
+            else {
+                str = arr[idx] + "\t" + str;
+            }
+            idx--;
+            n--;
+        }
+        
+        System.out.println(str);
+    }
+
+    public static int getBinary(int num) {
+        int res = 0;
+        int pos = 0;
+        while(num != 0) {
+            int rem = num % 2;
+            num = num / 2;
+
+            int pow = (int)Math.pow(10,pos);
+            res = res + (rem * pow);
+            pos++;
+        }
+        return res;
     }
 }
