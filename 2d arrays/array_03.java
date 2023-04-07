@@ -45,6 +45,27 @@ public class array_03 {
                 mat2[i][j] = scn.nextInt();
             }
         }
+        
+        System.out.println("Output :-");
+        if(nc1 == nr2) {
+            int res[][] = new int[nr1][nc2];
+            for(int i = 0 ; i < res.length ; i++) {
+                for(int j = 0 ; j < res[0].length ; j++) {
+                    for(int k = 0 ; k < nc1 ; k++) {
+                        res[i][j] = res[i][j] + (mat1[i][k] * mat2[k][j]);
+                    }
+                }
+            }
+            for(int i = 0 ; i < res.length ; i++) {
+                for(int j = 0 ; j < res[0].length ; j++) {
+                    System.out.print(res[i][j] + " ");
+                }
+                System.out.println();
+            }
+        }
+        else {
+            System.out.println("Invaild input");
+        }
 
         scn.close();
     }
