@@ -60,6 +60,7 @@ public class array_03 {
                 for(int j = 0 ; j < res[0].length ; j++) {
                     System.out.print(res[i][j] + " ");
                 }
+                
                 System.out.println();
             }
         }
