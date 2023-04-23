@@ -10,7 +10,7 @@
 
 
 
-package recursion_intro;
+package recursion.recursion_intro;
 
 import java.util.Scanner;
 

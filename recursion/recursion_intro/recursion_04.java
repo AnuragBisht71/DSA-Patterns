@@ -1,24 +1,16 @@
-// Print Decreasing
+// Factorial
 
-// Input :-
+// Input :- 5
 
-// 5
-
-// Output :-
-
-// 5
-// 4
-// 3
-// 2
-// 1
+// Output :- 120
 
 
 
-package recursion_intro;
+package recursion.recursion_intro;
 
 import java.util.Scanner;
 
-public class recursion_01 {
+public class recursion_04 {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter input :-");
@@ -26,16 +18,16 @@ public class recursion_01 {
         int n = scn.nextInt();
 
         System.out.println("Output :-");
-        printDecreasing(n);
+        System.out.println(factorial(n));
+
         scn.close();
     }
 
-    public static void printDecreasing(int n){
+    public static int factorial(int n){
         if(n == 0) {
-            return;
+            return 1;
         }
 
-        System.out.println(n);
-        printDecreasing(n-1);
+        return n * factorial(n-1);
     }
 }
