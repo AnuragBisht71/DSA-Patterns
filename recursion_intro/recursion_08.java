@@ -34,12 +34,18 @@ public class recursion_08 {
         int helper = scn.nextInt();
 
         System.out.println("Output :-");
-        toh(n);
+        toh(n , src , dest , helper);
 
         scn.close();
     }
 
     public static void toh(int n, int src, int dest, int helper){
-        
+        if(n == 0) {
+            return;
+        }
+
+        toh(n-1, src , helper , dest);
+        System.out.println(n + "[" + src + "->" + dest + "]");
+        toh(n-1 , helper , dest , src);
     }
 }
