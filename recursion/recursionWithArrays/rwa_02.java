@@ -2,7 +2,7 @@
 
 // Input :-
 
-// 5 --> No. of elements
+// 5 --> No. of Elements
 // 3
 // 1
 // 0
