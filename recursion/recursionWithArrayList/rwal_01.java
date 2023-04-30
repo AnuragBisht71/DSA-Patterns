@@ -31,25 +31,25 @@ public class rwal_01 {
 
     public static ArrayList<String> gss(String str) {
         if (str.length () == 0){
-            ArrayList<String>  res = new ArrayList<>();
-            res.add("");
-            return res;
+            ArrayList<String>  bList = new ArrayList<>();
+            bList.add("");
+            return bList;
         }
         
         
-        ArrayList <String> ans = new ArrayList <>();
+        ArrayList <String> mySubSeq = new ArrayList <>();
         
-        char first_ch = str.charAt(0); //
-        String ros = str.substring(1,str.length());// ros
-        ArrayList<String> al1 = gss(ros); // -- , -c, b-, bc
+        char ch = str.charAt(0); //
+        String roq = str.substring(1,str.length());// ros
+        ArrayList<String> subSeq = gss(roq); // -- , -c, b-, bc
         
-        for (String s : al1){
-            ans.add(s);
+        for (String s : subSeq){
+            mySubSeq.add(s);
         }
-        for (String s : al1){
-            ans.add(first_ch + s);
+        for (String s : subSeq){
+            mySubSeq.add(ch + s);
         }
         
-        return ans;    
+        return mySubSeq;    
     }
 }
