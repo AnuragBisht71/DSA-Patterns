@@ -35,7 +35,7 @@ package timeAndSpace;
 
 import java.util.Scanner;
 
-public class tas_01 {
+public class bubble_sort_01 {
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
 
