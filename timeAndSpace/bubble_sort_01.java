@@ -1,5 +1,3 @@
-// Bubble Sort
-
 // Input :-
 
 // 5 --> no. of element in array
