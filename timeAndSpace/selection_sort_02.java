@@ -1,5 +1,3 @@
-// Selection Sort
-
 // Input :-
 
 // 5 --> no. of elements in array
