@@ -1,5 +1,3 @@
-// Merge Two Sorted Arrays
-
 // Input :-
 
 // 4 --> no. of element of arr1
@@ -24,7 +22,7 @@ package timeAndSpace;
 
 import java.util.Scanner;
 
-public class tas_04 {
+public class mergeTwoSortedArrays_04 {
     public static int[] mergeTwoSortedArrays(int[] a, int[] b){
         int n1 = a.length;
         int n2 = b.length;
