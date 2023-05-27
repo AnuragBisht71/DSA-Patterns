@@ -1,5 +1,3 @@
-// Insertion Sort
-
 // Input :-
 
 // 5 --> no. of elements in array
@@ -34,7 +32,7 @@ package timeAndSpace;
 
 import java.util.Scanner;
 
-public class tas_03 {
+public class insertion_sort_03 {
     public static void insertionSort(int[] arr) {
         int n = arr.length;
 
