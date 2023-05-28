@@ -23,7 +23,7 @@ package timeAndSpace;
 import java.util.Scanner;
 
 public class mergeTwoSortedArrays {
-    public static int[] mergeTwoSortedArrays(int[] a, int[] b){
+    public static int[] mergeTwoSortedarrays(int[] a, int[] b){
         int n1 = a.length;
         int n2 = b.length;
 
@@ -82,7 +82,7 @@ public class mergeTwoSortedArrays {
         }
 
         System.out.println("Output :-");
-        int[] mergedArray = mergeTwoSortedArrays(a,b);
+        int[] mergedArray = mergeTwoSortedarrays(a,b);
         print(mergedArray);
 
         scn.close();

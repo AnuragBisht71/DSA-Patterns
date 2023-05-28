@@ -31,7 +31,7 @@ package timeAndSpace;
 
 import java.util.Scanner;
 
-public class selection_sort_02 {
+public class selection_sort {
     public static void selectionSort(int[] arr) {
         int n = arr.length;
 
