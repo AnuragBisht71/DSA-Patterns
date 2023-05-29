@@ -20,7 +20,7 @@ package timeAndSpace;
 
 import java.util.Scanner;
 
-public class tas_06 {
+public class radix_sort {
     public static void radixSort(int[] arr) {
         int max = Integer.MIN_VALUE;
 

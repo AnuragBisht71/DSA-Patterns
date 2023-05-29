@@ -23,7 +23,7 @@ package timeAndSpace;
 
 import java.util.Scanner;
 
-public class tas_05 {
+public class count_sort {
     public static void countSort(int[] arr, int min, int max) {
         int range = max-min+1;
         int freq[] = new int[range];
