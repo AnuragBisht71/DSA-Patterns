@@ -1,5 +1,3 @@
-// Sort 01
-
 // Input :-
 
 // 5 --> no. of elements
@@ -24,7 +22,7 @@ package timeAndSpace;
 
 import java.util.Scanner;
 
-public class tas_08 {
+public class sort_01 {
     public static void sort01(int[] arr) {
         int i = 0, j = 0;
 
