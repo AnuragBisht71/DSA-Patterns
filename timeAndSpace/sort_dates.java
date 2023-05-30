@@ -1,5 +1,3 @@
-// Sort Dates
-
 // Input :-
 
 // 5
@@ -23,7 +21,7 @@ package timeAndSpace;
 
 import java.util.Scanner;
 
-public class tas_07 {
+public class sort_dates {
     public static void sortDates(String[] arr) {
         countSort(arr , 1000000 , 100 , 32);
         countSort(arr , 10000 , 100 , 13);
