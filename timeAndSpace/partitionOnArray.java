@@ -1,5 +1,3 @@
-// Partition on Array
-
 // Input :-
 
 // 5 --> elements of array
@@ -24,7 +22,7 @@ package timeAndSpace;
 
 import java.util.Scanner;
 
-public class tas_10 {
+public class partitionOnArray {
     public static void partition(int[] arr, int pivot){
         int i = 0 , j = 0 ;
     
