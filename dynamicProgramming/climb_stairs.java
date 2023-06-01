@@ -40,5 +40,6 @@ public class climb_stairs {
         System.out.println(dp[n]);
 
         scn.close();
+        
     } 
 }
