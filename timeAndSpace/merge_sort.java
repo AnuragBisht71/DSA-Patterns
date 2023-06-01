@@ -1,5 +1,3 @@
-// Merge Sort
-
 // Input :-
 
 // 5 --> no. of elements in an array
@@ -21,7 +19,7 @@ package timeAndSpace;
 
 import java.util.Scanner;
 
-public class tas_11 {
+public class merge_sort {
     public static int[] mergeSort(int[] arr, int lo, int hi) {
         if (lo == hi) {
             return new int[] { arr[lo] };
