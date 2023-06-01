@@ -55,5 +55,6 @@ public class climbStairsWithMinimumMoves {
         System.out.println(dp[0]);
 
         scn.close();
+        
     }
 }
