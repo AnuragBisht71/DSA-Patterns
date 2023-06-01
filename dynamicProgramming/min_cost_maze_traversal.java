@@ -59,5 +59,6 @@ public class min_cost_maze_traversal {
         System.out.println(dp[0][0]);
 
         scn.close();
+        
     }
 }
