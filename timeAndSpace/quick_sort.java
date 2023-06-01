@@ -1,5 +1,3 @@
-// Quick Sort
-
 // Input :-
 
 // 5 --> no. of elements in an array
@@ -37,7 +35,7 @@ package timeAndSpace;
 
 import java.util.Scanner;
 
-public class tas_12 {
+public class quick_sort {
     public static void quickSort(int[] arr, int lo, int hi) {
         if (lo > hi) {
             return;
