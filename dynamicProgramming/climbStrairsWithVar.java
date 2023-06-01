@@ -50,5 +50,6 @@ public class climbStrairsWithVar {
         System.out.println(dp[0]);
         
         scn.close();
+        
     }
 }
