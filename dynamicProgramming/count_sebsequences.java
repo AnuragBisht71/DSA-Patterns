@@ -1,3 +1,15 @@
+// Count A+b+c+ Subsequences
+
+// Input :-
+
+// abcabc
+
+// Output :-
+
+// 7
+
+
+
 package dynamicProgramming;
 
 import java.util.Scanner;
@@ -15,10 +27,10 @@ public class count_sebsequences {
             a = 2 * a + 1;
         }
         else if(ch == 'b') {
-            ab = 2 + ab + 1;
+            ab = 2 + ab + a;
         }
         else if(ch == 'c') {
-            abc = 2 * abc + 1;
+            abc = 2 * abc + ab;
         }
     }
 
