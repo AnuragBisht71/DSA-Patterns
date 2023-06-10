@@ -15,6 +15,8 @@ import java.util.Scanner;
 public class count_sebsequences {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
+        System.out.println("Enter Input :-");
+        
         String str = scn.nextLine();
 
         int a = 0;
