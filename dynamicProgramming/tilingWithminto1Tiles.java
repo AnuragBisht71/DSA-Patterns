@@ -13,7 +13,7 @@ package dynamicProgramming;
 
 import java.util.Scanner;
 
-public class tilingWithminto1Tiles {
+public class tilingWithMinto1Tiles {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter Input :-");
