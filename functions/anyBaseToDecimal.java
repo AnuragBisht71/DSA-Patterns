@@ -1,17 +1,21 @@
-package functions;
 // Convert any base value to Decimal base value
 
 // Input:-
+
 // 111001 --> Binary Number
 // 2 --> Base
 
 // Output:-
+
 // 57
 
 
+
+package functions;
+
 import java.util.Scanner;
 
-public class function_3 {
+public class anyBaseToDecimal {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter input");
