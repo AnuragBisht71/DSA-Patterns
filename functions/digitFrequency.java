@@ -1,4 +1,3 @@
-package functions;
 // Input :-
 
 // 994543234 --> Number
@@ -9,9 +8,12 @@ package functions;
 // 3
 
 
+
+package functions;
+
 import java.util.Scanner;
 
-public class function_1 {
+public class digitFrequency {
     public static void main(String[] args) {
         try (Scanner scn = new Scanner(System.in)) {
             System.out.println("Enter input");
