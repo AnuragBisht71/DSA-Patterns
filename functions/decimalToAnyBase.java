@@ -1,4 +1,3 @@
-package functions;
 // Input :-
 
 // 57 --> Number
@@ -9,9 +8,12 @@ package functions;
 // 111001
 
 
+
+package functions;
+
 import java.util.Scanner;
 
-public class function_2 {
+public class decimalToAnyBase {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter input");
