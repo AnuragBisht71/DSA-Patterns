@@ -16,7 +16,7 @@ package functions;
 
 import java.util.Scanner;
 
-public class anyBaseToAnyBase {
+public class AnyBaseToAnyBase {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter input :-");
