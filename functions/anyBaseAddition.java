@@ -1,5 +1,3 @@
-// Any base addition
-
 // Input :-
 
 // 8 --> base
@@ -11,11 +9,12 @@
 // 1000
 
 
+
 package functions;
 
 import java.util.Scanner;
 
-public class function_5 {
+public class anyBaseAddition {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter input :-");
