@@ -1,5 +1,3 @@
-// Any base subtraction
-
 // Input :-
 
 // 8 --> base
@@ -10,11 +8,13 @@
 
 // 77
 
+
+
 package functions;
 
 import java.util.Scanner;
 
-public class function_6 {
+public class anyBaseSubtraction {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter input :-");
