@@ -1,4 +1,3 @@
-package functions;
 // Convert number n of base1 to base2
 
 // Input:-
@@ -12,9 +11,12 @@ package functions;
 // 2010
 
 
+
+package functions;
+
 import java.util.Scanner;
 
-public class function_4 {
+public class anyBaseToAnyBase {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter input :-");
