@@ -1,6 +1,5 @@
-// Find element in an array
-
 // Input :-
+
 // 6 --> no. of elements
 // 15
 // 30
@@ -15,11 +14,12 @@
 // 2
 
 
+
 package arrays;
 
 import java.util.Scanner;
 
-public class array_01 {
+public class findElementInAnArray {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter input :-");
