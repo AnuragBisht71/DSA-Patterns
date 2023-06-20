@@ -1,5 +1,3 @@
-// Span of array
-
 // Input :-
 
 // 6 --> no. of elements
@@ -15,11 +13,12 @@
 // 36
 
 
+
 package arrays;
 
 import java.util.Scanner;
 
-public class array_02 {
+public class spanOfArray {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter input:-");
