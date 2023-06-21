@@ -1,5 +1,3 @@
-// Sum of two arrays
-
 // Input :-
 
 // 5 --> no. of elements
@@ -18,11 +16,12 @@
 // 6
 
 
+
 package arrays;
 
 import java.util.Scanner;
 
-public class array_05 {
+public class sumOfTwoArrays {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter input :-");
