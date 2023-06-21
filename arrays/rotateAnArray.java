@@ -1,5 +1,3 @@
-// Rotate an array
-
 // Input :-
 
 // 5 --> no. of elements
@@ -15,11 +13,12 @@
 // 3 4 5 1 2
 
 
+
 package arrays;
 
 import java.io.*;
 
-public class array_04{
+public class rotateAnArray{
   public static void display(int[] a){
     StringBuilder sb = new StringBuilder();
 
