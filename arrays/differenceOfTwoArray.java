@@ -1,6 +1,5 @@
-// Difference of two array
-
 // Input :-
+
 // 3 --> no. of elements
 // arr1 = [2, 6, 7]
 
@@ -14,11 +13,12 @@
 // 3
 
 
+
 package arrays;
 
 import java.util.Scanner;
 
-public class array_06 {
+public class differenceOfTwoArray {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter input :-");
