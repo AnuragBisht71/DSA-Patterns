@@ -1,5 +1,3 @@
-// Broken economy
-
 // Input :-
 
 // 10 --> no. of elements
@@ -17,7 +15,7 @@ package arrays;
 
 import java.util.Scanner;
 
-public class array_09 {
+public class BrokenEconomy {
     public static void main(String[] args) {
     Scanner scn = new Scanner(System.in);
     System.out.println("Enter input :-");
