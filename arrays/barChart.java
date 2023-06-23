@@ -1,5 +1,3 @@
-// Bar chart
-
 // Input :-
 
 // 5
