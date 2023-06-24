@@ -1,5 +1,3 @@
-// First Index and Last Index
-
 // Input :-
 
 // 15 --> no. of elements
@@ -17,7 +15,7 @@ package arrays;
 
 import java.util.Scanner;
 
-public class array_10 {
+public class firstIndexAndLastIndex {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter input :-");
