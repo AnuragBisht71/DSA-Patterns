@@ -1,5 +1,3 @@
-// Subarray Problem
-
 // Input :-
 
 // 3
@@ -22,7 +20,7 @@ package arrays;
 
 import java.util.Scanner;
 
-public class array_11 {
+public class subarrayProblem {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
         System.out.println("Enter input :-");
