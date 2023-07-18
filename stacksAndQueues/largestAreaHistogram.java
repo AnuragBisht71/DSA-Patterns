@@ -28,5 +28,6 @@ public class largestAreaHistogram {
         for (int i = 0; i < n; i++) {
             a[i] = Integer.parseInt(br.readLine());
         }
+        
     }
 }
